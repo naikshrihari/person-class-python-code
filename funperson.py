@@ -3,7 +3,7 @@ from person import Person
 def addPerson(lst):
     pid=int(input('Enter Id : '))
     name=input('Enter name : ')
-    mob=input('Enter moblie : ')
+    mob=input('Enter mobile : ')
     p=Person(pid,name,mob)
     lst.append(p)
     return True
